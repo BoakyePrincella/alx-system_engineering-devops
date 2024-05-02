@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+# superstitious numbers
+
+c=1
+while [ $c -le 20 ]
+do
+	case $c in
+		4)
+			echo "$c"
+			echo "bad luck from China"
+			;;
+		9)
+			echo "$c"
+			echo "bad luck from Japan"
+			;;
+		17)
+			echo "$c"
+			echo "bad luck from Italy"
+			;;
+		*)
+			echo "$c"
+			;;
+	esac
+	((c++))
+done
