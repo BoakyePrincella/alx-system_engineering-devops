@@ -1,4 +1,3 @@
-
 #!/usr/bin/env bash
 # if 9 say hi
 
@@ -14,4 +13,3 @@ do
 	fi
 	((c++))
 done
-
