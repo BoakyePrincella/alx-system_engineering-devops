@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# uses until here
+
+c=0
+until [ $c -ge 10 ]
+do
+	echo "Best School"
+	((c++))
+done
