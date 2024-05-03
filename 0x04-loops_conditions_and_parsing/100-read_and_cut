@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# modifying the output of 'cat /etc/passwd'
+
+while read -r l
+do
+	echo "$l" | cut -d ':' -f 1,3,6
+done < /etc/passwd
