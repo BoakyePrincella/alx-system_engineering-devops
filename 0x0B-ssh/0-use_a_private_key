@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#Thsu script connects to the ubuntu server using private key
+ssh ubuntu -i ~/.ssh/school
