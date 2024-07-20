@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#This script is used to set an pache server on docker
+echo "ServerName localhost" >> /etc/apache2.conf
+service apache2 start
