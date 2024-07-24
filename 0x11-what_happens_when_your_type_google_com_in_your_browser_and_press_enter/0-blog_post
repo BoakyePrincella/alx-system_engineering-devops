@@ -1,0 +1,16 @@
+When you type google.com into your browser and hit Enter, what happens?
+
+
+A Domain Name System (DNS) lookup occurs when I put google.com into the search bar and hit Enter. This DNS query asks a DNS server for the Internet Protocol (IP) address with the alias or domain name (Google). This is done because names are simpler for people to recall than a string of numbers divided by dots.For example, Google's IP address is 142.250.200.110.
+
+To ensure that there are no requests sent that are not authorized, such as when the user tries to view the requested page, a firewall is also installed before the user can see the requested page.
+
+The error code (404), which essentially means "page not found," is returned by the firewall if its configuration prohibits access to the requested page.
+
+This basically tells the browser whether or not the page the user is seeking is secure. There is also additional check to see if the transfer protocol is secure. For the user's protection and privacy, it is always ideal to have a secure transfer protocol. Insecure websites run the risk of compromising user privacy and posing a threat to the user.
+
+If your website receives a lot of traffic at once, you may want to think about installing a load balancer to control how requests are sent to your servers. For the distribution, there are several methods available, such as the weighted round robin, which is used more frequently than the others. This is also necessary to avoid a problem known as Single Point of Failure (SPOF), which happens when an application goes down due to a breakdown in one area of the service system. It takes up the user's time and eventually affects the program as a whole. In order to handle requests in the event that the primary server or servers are unavailable, the load balancer is equipped with a backup server or servers.
+
+The Web server and the application server are the two servers that are most frequently utilized;
+Web server: This server's primary responsibility is to respond to incoming Hyper Text Transfer Protocol (HTTP) queries. The user is subsequently provided back the static contents, which include HTML pages, pictures, and client-side scripts, to see.
+Application Server: This server adds a whole new level of functionality; it is made to carry out both business and application logic. It is in charge of communicating with databases and handling dynamic material. They run server-side programs, such as Python, Java, and PHP.
