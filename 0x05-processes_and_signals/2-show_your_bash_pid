@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#A shell script that shows Bash ID
+# shellcheck disable=SC2009
+
+ps -auxf | grep bash
